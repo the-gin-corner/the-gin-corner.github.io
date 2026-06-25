@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Gin-Scratchy";
+    src: url("../Fonts/GinScratchy-Regular.ttf") format("truetype");
+}
+
+body {
+    display:flex;
+    margin:0;
+    height:100vh;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background-color: #62c5e3;
+}
+
+a {
+    text-decoration:none;
+    width:300px;
+}
+
+div {
+    display:flex;
+}
+
+img {
+    height:50vh;
+}
+
+nav {
+    display:flex;
+    margin-left:10vw;
+    flex-direction:column;
+    gap:10vh;
+}
+
+nav > a {
+    color: #26229c;
+    font-family: "Gin-Scratchy";
+    font-size:7vh;
+}
+
+span {
+    display:inline-block;
+    position:relative;
+}
