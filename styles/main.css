@@ -3,6 +3,10 @@
     src: url("../Fonts/GinScratchy-Regular.ttf") format("truetype");
 }
 
+#home-gif {
+    height:50vh;
+}
+
 body {
     display:flex;
     margin:0;
@@ -20,10 +24,6 @@ a {
 
 div {
     display:flex;
-}
-
-img {
-    height:50vh;
 }
 
 nav {
