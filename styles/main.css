@@ -15,7 +15,7 @@ body {
 
 a {
     text-decoration:none;
-    width:20vw;
+    width:25vw;
 }
 
 div {
@@ -44,7 +44,7 @@ span {
     position:relative;
 }
 
-@media (max-width:1300px) {
+@media (max-width:1500px) {
     div {
         flex-direction: column;
         justify-content: center;
