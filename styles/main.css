@@ -1,3 +1,23 @@
+@media (min-width:900px) {
+    div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        margin-left:0px;
+    }
+
+    nav > a {
+        font-size: 5vh;
+    }
+
+    a {
+        width: 45vw;
+    }
+}
+
 @font-face {
     font-family: "Gin-Scratchy";
     src: url("../Fonts/GinScratchy-Regular.ttf") format("truetype");
@@ -15,7 +35,7 @@ body {
 
 a {
     text-decoration:none;
-    width:300px;
+    width:20vw;
 }
 
 div {
@@ -42,4 +62,8 @@ nav > a {
 span {
     display:inline-block;
     position:relative;
+}
+
+@media (max-width:1300px) {
+
 }
