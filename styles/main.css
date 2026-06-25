@@ -44,7 +44,7 @@ span {
     position:relative;
 }
 
-@media (max-width:1500px) {
+@media (max-width:1300px) {
     div {
         flex-direction: column;
         justify-content: center;
