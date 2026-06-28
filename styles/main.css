@@ -3,6 +3,10 @@
     src: url("../Fonts/GinScratchy-Regular.ttf") format("truetype");
 }
 
+#home-gif {
+    height:50vh;
+}
+
 body {
     display:flex;
     margin:0;
@@ -15,15 +19,11 @@ body {
 
 a {
     text-decoration:none;
-    width:300px;
+    width:25vw;
 }
 
 div {
     display:flex;
-}
-
-img {
-    height:50vh;
 }
 
 nav {
@@ -42,4 +42,24 @@ nav > a {
 span {
     display:inline-block;
     position:relative;
+}
+
+@media (max-width:1300px) {
+    div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        margin-left:0px;
+    }
+
+    nav > a {
+        font-size: 5vh;
+    }
+
+    a {
+        width: 45vw;
+    }
 }
