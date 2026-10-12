@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Gin-Scratchy";
+    src: url("../Fonts/GinScratchy-Regular.ttf") format("truetype");
+}
+
+body {
+    background-color: #62c5e3;
+}
+
+a {
+    text-decoration:none;
+    width:25vw;
+}
+
+div {
+    display:flex;
+    flex-direction:column;
+}
+
+img {
+  height:400px;
+  width: 400px !important;
+}
