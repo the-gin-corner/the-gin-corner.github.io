@@ -15,6 +15,12 @@ a {
 div {
     display:flex;
     flex-direction:column;
+    width:60%;
+}
+
+div.textImageContain {
+    display:flex;
+    flex-direction:row;
 }
 
 img {
