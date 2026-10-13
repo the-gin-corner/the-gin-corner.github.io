@@ -5,6 +5,12 @@
 
 body {
     background-color: #62c5e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0; 
 }
 
 a {
@@ -15,7 +21,7 @@ a {
 div {
     display:flex;
     flex-direction:column;
-    width:60%;
+    width:70%;
 }
 
 div.textImageContain {
@@ -26,4 +32,9 @@ div.textImageContain {
 img {
   height:400px;
   width: 400px !important;
+  transition: transform 0.25s;
+}
+
+img:hover{
+  transform: rotate(5deg);
 }
